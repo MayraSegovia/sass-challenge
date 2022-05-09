@@ -380,7 +380,6 @@ footer{
     margin: 100px;  
     padding: 10px;
     position: static;
-    background-color: #4484ceb4;
     justify-content: center;
     text-align: center;
     color: #000000;
@@ -388,8 +387,28 @@ footer{
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
+    background-image: url(imagenes/foto3.jpg);
+          height: fit-content;
+          width: auto;
+          background-size: cover;
+          background-size: 100rem;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-attachment: fixed;
+
     
     }
+
+    .form-label{
+    justify-content: left;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+
+
+    }   
   
     .p-contacto{
         color: #000000;
@@ -416,18 +435,7 @@ footer{
         
   
   
-        .form-container{
-          background-image: url(imagenes/foto3.jpg);
-          height: fit-content;
-          width: auto;
-          background-size: cover;
-          background-size: 100rem;
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-attachment: fixed;
-         
-            
-          }
+       
   
           /*Animaciones y transiciones*/ 
   
@@ -483,4 +491,3 @@ footer{
 
           } 
 
-          
