@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #4484ce !important;
+    color: #ffffff ;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav{
+      ul{
+        padding: 2px;
+        color: #ffffff !important;
+        text-align: right;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Work Sans', sans-serif;
+
+        }   
+       li{
+        padding: 2px;
+        color: #ffffff !important;
+        text-align: right;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Work Sans', sans-serif; 
+        }
+        
+        a{
+            padding: 2px;
+            color: #ffffff !important;
+            text-align: right;
+            font-size: 20px;
+            font-weight: 100;
+            font-family: 'Work Sans', sans-serif; 
+            }
+    
+  }
+  
+  .navbar-brand{
+    background-color: #4484ce !important;
+    color: #ffffff ;
+    font-family:'Bebas Neue', cursive;
+    font-size: 30px !important;
+  }
+  
+  
