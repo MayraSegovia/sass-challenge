@@ -1,15 +1,19 @@
 @import "navbar";
 
+$color-primary: #4484ce;
+$color-secondary: #ffffff;
+
 footer{
     justify-content: center;
     align-items: flex-end;
     height: auto;
     color: #ffffff !important;
-    background-color: #4484ce !important;
+    background-color: $color-primary !important;
     text-align: center;
     font-weight: normal;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
+    
     ul{ 
         color: #ffffff !important;
          }
@@ -478,9 +482,9 @@ footer{
                  font-size: 20px;
                  font-weight: 500;
                  padding: 0.5em 1.2em;
-                 background: #4484ce;
+                 background: $color-primary;
                  border: 2px solid;
-                 border-color: #4484ce;
+                 border-color: $color-primary;
                  position: relative;
                     &:hover{
                     color: rgba(255, 255, 255, 1);
