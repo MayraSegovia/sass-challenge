@@ -7,7 +7,7 @@ footer{
     justify-content: center;
     align-items: flex-end;
     height: auto;
-    color: #ffffff !important;
+    color: $color-secondary !important;
     background-color: $color-primary !important;
     text-align: center;
     font-weight: normal;
@@ -15,14 +15,14 @@ footer{
     font-size: 15px;
     
     ul{ 
-        color: #ffffff !important;
+        color: $color-secondary !important;
          }
 
       li{ 
-        color: #ffffff !important;
+        color: $color-secondary !important;
         }  
        a{ 
-        color: #ffffff !important;
+        color: $color-secondary !important;
         } 
 
 }
@@ -213,11 +213,11 @@ footer{
     .btn{
     border-radius: 2em;
     background-color: #f19f4d;
-    color: #ffffff;
+    color: $color-secondary;
     padding: 0.5em 1.5em;
         &:hover{
             background-color: #f19f4dc5;
-            color: #ffffff;
+            color: $color-secondary;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           }
     }
@@ -227,12 +227,12 @@ footer{
   .btn{
     border-radius: 2em;
     background-color: #f19f4d;
-    color: #ffffff;
+    color: $color-secondary;
     padding: 0.5em 1.5em;
         &:hover{
             border-radius: 2em;
             background-color: #f19f4d;
-            color: #ffffff;
+            color: $color-secondary;
             padding: 0.5em 1.5em;
           }    
   
@@ -425,11 +425,11 @@ footer{
        .boton-enviar{
         border-radius: 2em;
         background-color: #f19f4d;
-        color: #ffffff;
+        color: $color-secondary;
         padding: 0.5em 1.5em;
             &:hover{
             background-color: #f19f4dc5;
-            color: #ffffff;
+            color: $color-secondary;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           }
   
@@ -446,7 +446,7 @@ footer{
           @media screen and(min-width:768px) {
   
             a {
-              color: #ffffff;
+              color: $color-secondary;
               transition: color .5s !important;
 
               &:hover{
