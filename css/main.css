@@ -51,6 +51,16 @@ footer {
   footer a {
     color: #ffffff !important; }
 
+/*Mapas*/
+.rrss-instagram {
+  color: #9531c6; }
+
+.rrss-facebook {
+  color: #1878f2; }
+
+.rrss-twitter {
+  color: #209bf0; }
+
 h1 {
   color: #000000;
   background-color: #ffffff56;
@@ -94,40 +104,10 @@ h1 {
   border-radius: 100%;
   padding: 20px; }
 
-/* display: flex;
-      align-items: center;
-      height: 320px;
-      width: 300px;
-      margin: 0px auto;
-      border-radius: 100%;
-      padding: 20px;
-   
-    */
 .imagen-estudiantes, .imagen-internacionales, .imagen-empresas {
   display: flex;
   align-items: center; }
 
-/*.imagen-internacionales{
-      display: flex;
-      align-items: center;
-      margin: 0px auto;
-      height: 320px;
-      width: 300px;
-      padding: 20px;
-      border-radius: 100%;
-     
-    }
-     .imagen-empresas{
-      display: flex;
-      align-items: center;
-      margin: 0px auto;
-      height: 320px;
-      width: 300px;
-      position: static;
-      padding: 20px;
-      border-radius: 100%;
-    
-    }*/
 h4 {
   color: #000000;
   text-align: center;
