@@ -27,6 +27,8 @@ footer{
 
 }
 
+
+
   
   h1{
      color: #000000;
@@ -77,10 +79,22 @@ footer{
     }
   
   
+      /*Mixins*/
+
+
+      @mixin tamano( $alto, $ancho, $margen, $radio, $espacio) {
+        height: $alto;
+        width: $ancho;
+        margin: $margen;
+        border-radius: $radio;
+        padding: $espacio;
+        
+      }
   
-     .imagen-estudiantes{
-    
-      display: flex;
+     .imagen-estudiantes, .imagen-internacionales, .imagen-empresas{
+      @include tamano(320px, 300px, 0px auto, 100%, 20px )
+    }
+     /* display: flex;
       align-items: center;
       height: 320px;
       width: 300px;
@@ -88,8 +102,14 @@ footer{
       border-radius: 100%;
       padding: 20px;
    
+    */
+
+    .imagen-estudiantes, .imagen-internacionales, .imagen-empresas{
+      display: flex;
+      align-items: center;
     }
-     .imagen-internacionales{
+     
+    /*.imagen-internacionales{
       display: flex;
       align-items: center;
       margin: 0px auto;
@@ -109,7 +129,7 @@ footer{
       padding: 20px;
       border-radius: 100%;
     
-    }
+    }*/
      h4{
        color: #000000;
       text-align: center;
