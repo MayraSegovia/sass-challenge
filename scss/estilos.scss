@@ -27,8 +27,12 @@ footer{
 
 }
 
-
-
+.container-fluid{ 
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
   
   h1{
      color: #000000;
@@ -385,37 +389,33 @@ footer{
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    background-image: url(imagenes/foto3.jpg);
-          height: fit-content;
-          width: auto;
-          background-size: cover;
-          background-size: 100rem;
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-attachment: fixed;
+    /*background-image: url(imagenes/foto3.jpg);*/
+    background-color: #4484ce;
+  
 
     
     }
 
     .form-label{
-    justify-content: left;
-    text-align: left;
+    background-color: #4484ce;
+    justify-content: center;
+    text-align: center;
     color: #000000;
-    font-weight: bold;
+    font-weight: normal;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
 
 
-    }   
+  } 
   
-    .p-contacto{
-        color: #000000;
-       text-align: left;
-       font-weight: bold;
-       font-family: 'Work Sans', sans-serif;
-       font-size: 20px;
-       }
-  
+    input{
+      margin: auto
+    }
+
+    textarea{
+      margin: auto
+    }
+      
        /*Extend*/
        .boton-enviar{
          @extend .btn;
