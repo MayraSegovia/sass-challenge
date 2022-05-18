@@ -51,16 +51,6 @@ footer {
   footer a {
     color: #ffffff !important; }
 
-/*Mapas*/
-.rrss-instagram {
-  color: #9531c6; }
-
-.rrss-facebook {
-  color: #1878f2; }
-
-.rrss-twitter {
-  color: #209bf0; }
-
 h1 {
   color: #000000;
   background-color: #ffffff56;
@@ -181,22 +171,22 @@ h3 {
   font-weight: 700;
   font-size: 1.5em; }
 
-.card .btn {
+.card .btn, .card .boton-enviar {
   border-radius: 2em;
   background-color: #f19f4d;
   color: #ffffff;
   padding: 0.5em 1.5em; }
-  .card .btn:hover {
+  .card .btn:hover, .card .boton-enviar:hover {
     background-color: #f19f4dc5;
     color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
-.btn {
+.btn, .boton-enviar {
   border-radius: 2em;
   background-color: #f19f4d;
   color: #ffffff;
   padding: 0.5em 1.5em; }
-  .btn:hover {
+  .btn:hover, .boton-enviar:hover {
     border-radius: 2em;
     background-color: #f19f4d;
     color: #ffffff;
@@ -314,16 +304,7 @@ footer {
   font-family: 'Work Sans', sans-serif;
   font-size: 20px; }
 
-.boton-enviar {
-  border-radius: 2em;
-  background-color: #f19f4d;
-  color: #ffffff;
-  padding: 0.5em 1.5em; }
-  .boton-enviar:hover {
-    background-color: #f19f4dc5;
-    color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
-
+/*Extend*/
 /*Animaciones y transiciones*/
 @media screen and (min-width: 768px) {
   a {
@@ -344,17 +325,4 @@ footer {
     transition: all 1s; }
     textarea:focus {
       width: 300px;
-      font-size: 20px; }
-  button {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0.5em 1.2em;
-    background: #4484ce;
-    border: 2px solid;
-    border-color: #4484ce;
-    position: relative; }
-    button:hover {
-      color: white;
-      box-shadow: 0 4px 16px #318aac;
-      transition: all 0.2s ease; } }
+      font-size: 20px; } }

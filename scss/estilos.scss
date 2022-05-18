@@ -209,6 +209,7 @@ footer{
     color: $color-secondary;
     padding: 0.5em 1.5em;
         &:hover{
+
             background-color: #f19f4dc5;
             color: $color-secondary;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -415,26 +416,12 @@ footer{
        font-size: 20px;
        }
   
+       /*Extend*/
        .boton-enviar{
-         @extend .btn
-        border-radius: 2em;
-        background-color: #f19f4d;
-        color: $color-secondary;
-        padding: 0.5em 1.5em;
-            &:hover{
-            background-color: #f19f4dc5;
-            color: $color-secondary;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          }
-  
-  
-        
-  
-        
-  
-  
+         @extend .btn;
+        }
+      
        
-  
           /*Animaciones y transiciones*/ 
   
           @media screen and(min-width:768px) {
@@ -469,26 +456,5 @@ footer{
                 font-size: 20px;
               }
              }
-             /*Extend*/
-
-             button{
-               @extend .btn
-
-               
-                 color: rgba(255, 255, 255, 0.9);
-                 font-size: 20px;
-                 font-weight: 500;
-                 padding: 0.5em 1.2em;
-                 background: $color-primary;
-                 border: 2px solid;
-                 border-color: $color-primary;
-                 position: relative;
-                    &:hover{
-                    color: rgba(255, 255, 255, 1);
-                    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
-                    transition: all 0.2s ease;
-                    }
-               }
-
-          
-
+            
+            } 
