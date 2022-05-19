@@ -58,9 +58,6 @@ footer {
   margin-bottom: 0px; }
 
 h1 {
-  color: #000000;
-  background-color: #ffffff56;
-  opacity: 10;
   text-align: center;
   font-weight: bold;
   font-family: 'Bebas Neue', cursive;
@@ -76,7 +73,6 @@ h1 {
 
 .parr1 {
   color: #000000;
-  padding: 20px;
   background-color: #ffffff85;
   text-align: center;
   font-weight: normal;
@@ -84,6 +80,7 @@ h1 {
   font-size: 25px;
   justify-content: center; }
 
+/*Operaciones*/
 /* Servicios*/
 .cont-servicios {
   margin: 20px auto;
@@ -104,14 +101,24 @@ h1 {
   display: flex;
   align-items: center; }
 
+/*Maps*/
+.title--titulo1 {
+  color: #111111 !important; }
+
+.title--titulo2 {
+  color: #413f3f !important; }
+
+.title--titulo3 {
+  color: #323030 !important; }
+
+.title--titulo4 {
+  color: #565454 !important; }
+
 h4 {
-  color: #000000;
   text-align: center;
   font-weight: bold;
   font-family: 'Bebas Neue', cursive;
   font-size: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
   padding: 20px; }
 
 .parrafo-servicios {
@@ -130,7 +137,6 @@ h4 {
 
 /* Nosotros*/
 h3 {
-  color: #000000;
   text-align: center;
   font-weight: bold;
   font-family: 'Bebas Neue', cursive;
@@ -286,7 +292,6 @@ footer {
   font-weight: bold;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
-  /*background-image: url(imagenes/foto3.jpg);*/
   background-color: #4484ce; }
 
 .form-label {
@@ -313,7 +318,7 @@ textarea {
     a:hover {
       color: #9bb4da93 !important; }
   .form-control {
-    width: 100px;
+    width: 200px;
     height: 25px;
     transition: all 1s; }
     .form-control:focus {

@@ -35,13 +35,12 @@ footer{
 }
   
   h1{
-     color: #000000;
-    background-color: #ffffff56;
-    opacity: 10;
+    
+   
     text-align: center; 
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 50px ;
     padding: 20px;
   }
   
@@ -57,7 +56,7 @@ footer{
   
   .parr1{
     color: #000000;
-    padding: 20px;
+    
     background-color: #ffffff85;
     text-align: center;
     font-weight: normal;
@@ -66,6 +65,7 @@ footer{
     justify-content: center;
   }
   
+  /*Operaciones*/
   
   
   
@@ -106,15 +106,28 @@ footer{
     }
      
 
-     
+
+    /*Maps*/ 
+    $titles: (
+    titulo1: #111111,
+    titulo2: #413f3f,
+    titulo3: #323030,
+    titulo4: #565454
+    
+);
+
+@each $title, $color in $titles {
+    .title--#{$title} {
+        color: $color !important;
+    }
+}
+
     h4{
-       color: #000000;
+      
       text-align: center;
       font-weight: bold;
       font-family: 'Bebas Neue', cursive;
       font-size: 30px;
-      margin-left: 200px;
-      margin-right: 200px;
       padding: 20px;
     
     }
@@ -141,7 +154,7 @@ footer{
   /* Nosotros*/
   
   h3{
-    color: #000000;
+  
     text-align: center;
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
@@ -389,7 +402,6 @@ footer{
     font-weight: bold;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
-    /*background-image: url(imagenes/foto3.jpg);*/
     background-color: #4484ce;
   
 
@@ -437,7 +449,7 @@ footer{
             
            
            .form-control{
-              width: 100px;
+              width: 200px;
               height: 25px;
               transition: all 1s;
               &:focus{
