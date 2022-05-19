@@ -182,22 +182,22 @@ h3 {
   font-weight: 700;
   font-size: 1.5em; }
 
-.card .btn, .card .boton-enviar {
+.card .btn, .card .boton-enviar, .card .button {
   border-radius: 2em;
   background-color: #f19f4d;
   color: #ffffff;
   padding: 0.5em 1.5em; }
-  .card .btn:hover, .card .boton-enviar:hover {
+  .card .btn:hover, .card .boton-enviar:hover, .card .button:hover {
     background-color: #f19f4dc5;
     color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
-.btn, .boton-enviar {
+.btn, .boton-enviar, .button {
   border-radius: 2em;
   background-color: #f19f4d;
   color: #ffffff;
   padding: 0.5em 1.5em; }
-  .btn:hover, .boton-enviar:hover {
+  .btn:hover, .boton-enviar:hover, .button:hover {
     border-radius: 2em;
     background-color: #f19f4d;
     color: #ffffff;
